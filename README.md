@@ -14,4 +14,9 @@ The columns of the dataset present the following information on each of the diam
 | 3  | 1.08  | Very Good | G     | SI2     | 63.2  | 57.0  | 6.54 | 6.50 | 4.12 | 8.371 |
 | 4  | 0.36  | Premium   | G     | VS1     | 62.3  | 59.0  | 4.50 | 4.55 | 2.82 | 6.588 |
 
-## Exploratory data analysis (EDA), standarization and encoding
+## Exploratory data analysis (EDA)
+
+First, to perform this EDA, the characteristics of the input data set are analyzed. There are no null values, so it is not necessary to treat them, but there are duplicate values, which are discarded. Secondly, it was decided to standardize the columns containing numerical predictor variables (carat, depth, table, x, y and z), in order to reduce the influence of the difference in magnitude that exists between the values of the columns, since each of them has different units of measurement. Thirdly, the categorical predictor variables (cut, color, clarity) are encoded, for which an ordinal encoder is used because the variables have an order. It was decided to order the variables from the highest to the lowest weight in the price of diamonds according to the literature of experts in the field.
+
+## Predictions
+
