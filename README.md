@@ -20,3 +20,4 @@ First, to perform this EDA, the characteristics of the input data set are analyz
 
 ## Predictions
 
+Before making the predictions with the test sample of the dataset, a set of tests are performed to detect which of the machine learning models studied gives the best result. The linear regression model is immediately discarded as the target variable does not have a normal distribution (saphiro = 0.00). The decision tree model is tested numerous times by modifying its parameters to try to obtain the best possible result. The combination of parameters that gives the best result is the following: max_depth = 17, max_features = 3 (sqrt(9)), min_samples_leaf = 7, min_samples_split = 13. The suitability of the random forest model to solve the problem has not been tested because I did not feel like being without a computer to work for so many hours.
