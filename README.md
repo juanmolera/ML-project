@@ -3,3 +3,15 @@
 This is my third project of the Ironhack data analytics bootcamp and it consists of a Kaggle competition about predicting the price of diamonds from a [dataset](https://www.kaggle.com/competitions/diamonds-datamad1022).
 
 ![diamond breakfast](/images/diamond-breakfast-1.png)
+
+The columns of the dataset present the following information on each of the diamonds:
+
+| id | carat | cut       | color | clarity | depth | table | x    | y    | z    | price |
+|--- |-------|-----------|-------|---------|-------|-------|------|------|------|-------|
+| 0  | 0.30  | Premium   | D     | SI2     | 62.4  | 58.0  | 4.31 | 4.28 | 2.68 | 6.353 |
+| 1  | 1.01  | Ideal     | E     | VVS2    | 62.7  | 56.0  | 6.42 | 6.46 | 4.04 | 9.183 |
+| 2  | 0.72  | Ideal     | F     | VS2     | 61.8  | 59.0  | 5.71 | 5.74 | 3.54 | 7.983 |
+| 3  | 1.08  | Very Good | G     | SI2     | 63.2  | 57.0  | 6.54 | 6.50 | 4.12 | 8.371 |
+| 4  | 0.36  | Premium   | G     | VS1     | 62.3  | 59.0  | 4.50 | 4.55 | 2.82 | 6.588 |
+
+## Exploratory data analysis (EDA), standarization and encoding
